@@ -1,8 +1,9 @@
 # -*- encoding: utf-8 -*-
-##############################################################################
+###############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2013 Gestion-Ressources (<http://www.gestion-ressources.com>).
+#    This module copyright (C) 2013 Savoir-faire Linux
+#    (<http://www.savoirfairelinux.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -108,16 +109,18 @@ Comment exporter les données comptables à partir d'OpenERP?
 Un manuel d'utilisation est disponible dans le répertoire /doc du module.
 
     """,
-    'author': 'EL HADJI DEM @ SavoirFaireLinux',
+    'author': 'Savoir-faire Linux',
+    'maintainer': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
     "license": "AGPL-3",
+    'images': [],
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
         'wizard/exportsage50_view.xml'
     ],
     'demo': [],
-    'test':[],
+    'test': [],
     'installable': True,
     'auto_install': False,
 }
